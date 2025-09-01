@@ -66,6 +66,11 @@
 #define I2C_BUFFER_LENGTH_RX BUFFER_LENGTH // BUFFER_LENGTH is defined in Wire.h for STM32
 #define I2C_BUFFER_LENGTH_TX BUFFER_LENGTH
 
+#elif defined(STM32_CORE_VERSION)
+
+#define I2C_BUFFER_LENGTH_RX BUFFER_LENGTH // BUFFER_LENGTH is defined in Wire.h for STM32
+#define I2C_BUFFER_LENGTH_TX BUFFER_LENGTH
+
 #elif defined(NRF52_SERIES)
 
 #define I2C_BUFFER_LENGTH_RX SERIAL_BUFFER_SIZE // Adafruit Bluefruit nRF52 Boards uses RingBuffer.h
