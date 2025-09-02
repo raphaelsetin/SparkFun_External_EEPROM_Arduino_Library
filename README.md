@@ -57,6 +57,7 @@ Thanks to:
 * [wollewald](https://github.com/wollewald) for [read/write strings](https://github.com/sparkfun/SparkFun_External_EEPROM_Arduino_Library/pull/21).
 * [giminotron5](https://github.com/giminotron5) for adding [write protect control](https://github.com/sparkfun/SparkFun_External_EEPROM_Arduino_Library/pull/30).
 * [merlinz01](https://github.com/merlinz01) for adding [putChanged()](https://github.com/sparkfun/SparkFun_External_EEPROM_Arduino_Library/pull/38) method
+* [clavisound](https://github.com/clavisound) and [marshfolx](https://github.com/marshfolx) for adding [SAMD E](https://github.com/sparkfun/SparkFun_External_EEPROM_Arduino_Library/pull/43) and [STM32Duino](https://github.com/sparkfun/SparkFun_External_EEPROM_Arduino_Library/pull/46) buffer definitions 
 
 Repository Contents
 -------------------
